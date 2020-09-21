@@ -1,0 +1,13 @@
+"use strict";
+
+var _User = require("./User");
+
+var _Company = require("./Company");
+
+var _customMap = require("./customMap");
+
+const user = new _User.User();
+console.log(user);
+const company = new _Company.Company();
+console.log(company);
+new _customMap.CustomMap();

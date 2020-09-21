@@ -1,0 +1,10 @@
+"use strict";
+
+var _User = require("./User");
+
+var _Company = require("./Company");
+
+const user = new _User.User();
+console.log(user);
+const company = new _Company.Company();
+console.log(company);
